@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KMS - Portfolio</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans">
+
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Kamatchi Somesh S</h1>
+      <nav class="flex space-x-4">
+        <a href="#about" class="hover:text-gray-400">About</a>
+        <a href="#skills" class="hover:text-gray-400">Skills</a>
+        <a href="#projects" class="hover:text-gray-400">Projects</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="py-8">
+    <div class="container mx-auto flex flex-col items-center">
+      <img src="profile.jpg" alt="Your Profile Image" class="w-64 h-64 rounded-full mb-4">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-gray-700">An aspiring AI&ML student on an exciting journey to harness the power of data and create positive change. A passionate learner,
+        wholeheartedly dedicated to acquiring expertise and refining the skills within the dynamic field of AI&ML.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="py-8 bg-gray-100">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="col-span-full mb-4">
+            <h2 class="text-3xl font-bold mb-4">Skills</h2>
+        </div>
+      <div class="p-4 border rounded-lg shadow-md" style="background-color: rgba(52, 152, 219, 0.8);">
+        <h3 class="text-xl font-bold mb-2">HTML</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: rgba(52, 152, 219, 1);"></div>
+        </div>
+      </div>
+
+      <div class="p-4 border rounded-lg shadow-md" style="background-color: rgba(52, 152, 219, 0.6);">
+        <h3 class="text-xl font-bold mb-2">CSS</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: rgba(52, 152, 219, 1);"></div>
+        </div>
+      </div>
+            
+      <div class="p-4 border rounded-lg shadow-md" style="background-color: rgba(52, 152, 219, 0.6);">
+        <h3 class="text-xl font-bold mb-2">JAVASCRIPT</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: rgba(52, 152, 219, 1);"></div>
+        </div>
+      </div>
+      
+      <div class="p-4 border rounded-lg shadow-md" style="background-color: rgba(52, 152, 219, 0.8);">
+        <h3 class="text-xl font-bold mb-2">MONGODB</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: rgba(52, 152, 219, 1);"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-8">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="p-4 bg-white rounded-lg shadow-md">
+          <img src="web proj 1.jpg" alt="Project Thumbnail" class="w-full h-64 object-conatin">
+          <h3 class="text-xl font-bold mt-4"> <a href="https://github.com/kamatchi-somesh/cattle-crop-hub" target="_blank" rel="noopener noreferrer">Cattle-Crop-Hub</a></h3>
+          <p class="text-gray-700">Designed a user-friendly React-based front-end facilitating smooth menu browsing, order placement and efficient profile
+            management</p>
+        </div>
+
+        <div class="p-4 bg-white rounded-lg shadow-md">
+            <img src="net proj 1.jpg" alt="Project Thumbnail" class="w-full h-64 object-contain">
+            <h3 class="text-xl font-bold mt-4"><a href="https://github.com/kamatchi-somesh/online-voting-system" target="_blank" rel="noopener noreferrer">Online Voting System</a></h3>
+            <p class="text-gray-700">Tailored for remote voting and decision-making applications; developed using Netbeans.</p>
+          </div>
+
+        <div class="p-4 bg-white rounded-lg shadow-md">
+        <img src="ml proj 1.jpg" alt="Project Thumbnail" class="w-full h-64 object-conatin">
+        <h3 class="text-xl font-bold mt-4">Interest Rate Predictor</h3>
+        <p class="text-gray-700">Created a manual interest rate prediction model from scratch for linear regression algorithms.</p>
+        </div>
+        <!-- Add similar code for other projects -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-8 bg-gray-100">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+        <p>Email: kamatchisomesh@gmail.com</p>
+        <p>Phone: +91 96558 41515</p>
+        <p class="text-blue-700">LinkedIn: <a href="https://www.linkedin.com/in/kamatchi-somesh" target="_blank" rel="noopener noreferrer">kamatchi-somesh</a></p>
+        <p  class="text-blue-700">GithUb: <a href="https://github.com/kamatchi-somesh" target="_blank" rel="noopener noreferrer">kamatchi-somesh</a></p>
+    </div>
+  </section>
+  <footer class="bg-gray-800 text-white text-center py-1 fixed bottom-0 w-full z-10">
+    <p>&copy; 2024 KMS. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
